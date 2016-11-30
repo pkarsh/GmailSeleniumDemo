@@ -2,6 +2,11 @@ GmailTestDemo
 Set of source files that use Selenium and JUnit to send and receive a mail item in Gmail.
 - Paul Karsh 6/19/2014
 
+This demo is currently broken due to changes that Google made to the Gmail login page. Currently working on revisions in two major areas:
+1. Get the login pages working again. At the moment I am thinking of making two different page objects for this to best accomodate the changes made by Google.
+2. Make page object classes conformant to best practice by putting as much of the Selenium code the manipulates the objects in the page object classes as possible in the page object classes themselves. JUnit tests will then reference methods within the page object classes.
+- Pk 11/27/16
+
 
 This project demonstrates my use of Selenium WebDriver to send and receive an email item in Google Gmail.
 It consists of page object class files to define the pages used for this task in Selenium, as well as JUnit  
